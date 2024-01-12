@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body, html, :root {
+  height: 100%;
+}
+
+.letters-gradient
+{
+  
+
+  background: radial-gradient(circle, rgba(2,0,36,0) 20%, rgba(119,0,255,1) 31%, rgba(29,79,216,1) 52%, rgba(0,212,255,1) 72%, rgba(119,0,255,1) 87%, rgba(255,0,254,1) 100%);
+  background-clip: text;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+
+.cover-gradient
+{
+ 
+  background: radial-gradient(circle, rgba(2,0,36,0) 20%, rgba(119,0,255,1) 31%, rgba(29,79,216,1) 52%, rgba(0,212,255,1) 72%, rgba(119,0,255,1) 87%, rgba(255,0,254,1) 100%);
+
+  -webkit-text-fill-color: transparent;
+
+}
+
+.social-media-animation
+{
+  animation: spawn-social-media 1500ms forwards;
+  animation-delay: 1000ms;
+  opacity: 0;
+}
+
+@keyframes spawn-social-media 
+{
+  0% {
+    opacity: 0;
+    transform: translateY(50%);
+  }  
+
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
