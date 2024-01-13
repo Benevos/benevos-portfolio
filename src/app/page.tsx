@@ -9,7 +9,10 @@ import ProjectCard from "@/components/ProjectCard/ProjectCard";
 import { toggleTheme } from "@/lib/features/theme/themeSlice";
 import { useAppDispatch, useAppSelector } from "@/lib/hooks";
 import { useEffect, useState } from "react";
-import { uuid } from "uuidv4";
+import { v4 as uuid } from "uuid";
+
+import { HiCursorClick } from "react-icons/hi";
+import { FaImage } from "react-icons/fa";
 
 import projectCardInfo from "@/data/projects";
 
@@ -25,6 +28,10 @@ export default function Home()
     if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) 
     {
       dispatch(toggleTheme(false))
+    }
+    else
+    {
+      dispatch(toggleTheme(true))
     }
 
     window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => 
@@ -64,8 +71,21 @@ export default function Home()
                className="flex flex-col items-center transition-all duration-700">
 
         <div className="max-w-[1480px] w-full py-4">
+          
+          <div className="flex justify-center items-center w-full font-bold gap-3">
+            <h2 className="text-3xl text-[#0072e5]">
+              Proyectos recientes
+            </h2>
 
-          <h2 className="text-3xl text-[#0072e5] w-full flex justify-center items-center font-bold">Proyectos recientes:</h2>
+            <div className="relative flex justify-center items-center">
+              <FaImage className="absolute text-2xl text-[#0072e5] top-0 right-3"/>
+              <HiCursorClick className={'text-3xl animate-ping opacity-0'}/> 
+              <HiCursorClick className={'absolute text-2xl opacity-100 top-2'}/> 
+              <HiCursorClick className={'absolute text-3xl animate-ping top-1'}/> 
+            </div>
+
+          </div>
+         
 
           <div className="flex flex-wrap justify-center gap-4 mt-4">
 
@@ -79,7 +99,7 @@ export default function Home()
             
             <ProjectCard/>
 
-          </div>
+          l</div>
         </div>
       </section>
 

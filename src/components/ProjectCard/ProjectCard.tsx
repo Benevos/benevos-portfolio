@@ -39,14 +39,12 @@ function ProjectCard(
                 
             </div>
 
-            <div className="absolute top-0 h-full w-full flex flex-col p-4 justify-end opacity-0 transition-all duration-500
-                            bg-gradient-to-t from-black to-transparent hover:opacity-100 z-[2]">
+            
+
+            <div className="absolute top-0 h-full w-full flex flex-col p-4 justify-end opacity-100 transition-all duration-500
+                            bg-gradient-to-t from-black to-transparent hover:opacity-0 z-[2]">
                 
-                { noButtons ? <></> :
-                <div className="absolute flex gap-2 top-3 right-3">
-                    {buttons.map((button) => <ProjectCardButton key={uuid()} Icon={button.icon} url={button.url} backgroundColor={button.color} />)}
-                </div>
-                }
+                
 
                 <h3 className="text-2xl font-bold pointer-events-none
                                max-[650px]:text-xl">
@@ -64,6 +62,12 @@ function ProjectCard(
                     </div>
                 }
             </div>
+
+            { noButtons ? <></> :
+            <div className="absolute flex gap-2 top-3 right-3 opacity-100 z-[3]">
+                {buttons.map((button) => <ProjectCardButton key={uuid()} Icon={button.icon} url={button.url} backgroundColor={button.color} />)}
+            </div>
+            }
 
         </div>
         

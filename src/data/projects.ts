@@ -27,7 +27,7 @@ const projectCardInfo = [
     },
     {
         title: 'Tienda FMVZ',
-        description: 'E-commerce inspirado en el crecimeinto del las PYMES dentro del mercado mexicano',
+        description: 'E-commerce inspirado en el crecimiento del las PYMES dentro del mercado mexicano',
         imageSrc: '/fmvz-store.png',
         buttons: [
         {
