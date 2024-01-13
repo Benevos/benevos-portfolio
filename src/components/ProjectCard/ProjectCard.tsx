@@ -35,7 +35,7 @@ function ProjectCard(
 
             <div className="flex justify-center items-center h-full w-full pointer-events-none z-[1]">
     
-                <Image className="h-full w-full" src={imageSrc} alt="project.pmg" height={800} width={800}/>
+                <Image className="h-full w-full" src={imageSrc} alt="project.png" height={800} width={800}/>
                 
             </div>
 

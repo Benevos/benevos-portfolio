@@ -30,6 +30,12 @@ body, html, :root {
 
 }
 
+
+.project-card-button-shadows
+{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
 .social-media-animation
 {
   animation: spawn-social-media 1500ms forwards;

@@ -49,7 +49,7 @@ const projectCardInfo = [
     },
     {
         title: 'Calculo Mental',
-        description: '(INICO EN DESARROLLO) Versión 2 de la plataforma de educación pensada para el uso de docentes integrando la tecnologia en sus aulas',
+        description: '(/HOME DESARROLLO) Versión 2 de la plataforma de educación pensada para el uso de docentes integrando la tecnologia en sus aulas',
         imageSrc: '/academic-web-app.png',
         buttons: [
         {

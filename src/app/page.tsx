@@ -72,7 +72,7 @@ export default function Home()
 
         <div className="max-w-[1480px] w-full py-4">
           
-          <div className="flex justify-center items-center w-full font-bold gap-3">
+          <div className="flex justify-center items-center w-full font-semibold gap-3">
             <h2 className="text-3xl text-[#0072e5]">
               Proyectos recientes
             </h2>
@@ -96,10 +96,9 @@ export default function Home()
                                                           imageSrc={project.imageSrc}
                                                           buttons={project.buttons} 
                                                           tags={project.tags}/>)}
-            
-            <ProjectCard/>
 
-          l</div>
+
+          </div>
         </div>
       </section>
 

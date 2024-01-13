@@ -16,6 +16,18 @@ function PresentationTypeItLabels()
     
     return (
         <>
+            <TypeIt className="text-lg relative font-light text-center"
+            
+            options={{ speed: 20, afterComplete: (instance: any) => { instance.destroy() }}}
+            
+            getBeforeInit={(instance) => {
+                
+                instance.type('kevin_mendoza092@hotmail.com')
+
+                return instance;
+            }}
+            />
+
             <TypeIt className="text-5xl font-bold relative text-center"
 
             options={{ speed: 20, afterComplete: (instance: any) => { instance.destroy() } }}
@@ -33,8 +45,7 @@ function PresentationTypeItLabels()
                     
 
             return instance;
-            }}>
-            </TypeIt>
+            }}/>
 
             {
             !nameAnimationEnded ? <></> :
@@ -49,8 +60,7 @@ function PresentationTypeItLabels()
                         .delete(7).type('Fullstack')
 
                 return instance
-                }}>
-            </TypeIt>
+                }}/>
             }
         </>
     )
