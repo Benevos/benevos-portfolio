@@ -4,7 +4,7 @@
 
 import Header from "@/components/Header";
 import Letters from "@/components/Letters";
-import PresentationTyping from "@/components/PresentationTyping";
+import Presentation from "@/components/Presentation/Presentation";
 import ProjectCard from "@/components/ProjectCard/ProjectCard";
 import { toggleTheme } from "@/lib/features/theme/themeSlice";
 import { useAppDispatch, useAppSelector } from "@/lib/hooks";
@@ -42,13 +42,13 @@ export default function Home()
   }, []);
 
   return (
-    <main className={isOnDarkMode ? "bg-[#161616] text-white transition-all duration-700" : 'bg-white text-black transition-all duration-700'}>
+    <main className={isOnDarkMode ? "bg-[#101418] text-white transition-all duration-700" : 'bg-white text-black transition-all duration-700'}>
 
       <Header/>
 
       <section className="h-[calc(100dvh-65px)] relative flex items-center justify-center" >
 
-        <PresentationTyping/>
+        <Presentation/>
 
         {/* <div className="absolute h-full w-full opacity-20 overflow-hidden cover-gradient transition-all"/>
 
@@ -56,10 +56,16 @@ export default function Home()
         
       </section>
 
-      <section className="flex flex-col items-center">
+        {
+          //#f0f7ff
+        }
+
+      <section style={ { backgroundColor: isOnDarkMode ? '#0f1924' : '#d9eafd' } }
+               className="flex flex-col items-center transition-all duration-700">
+
         <div className="max-w-[1480px] w-full py-4">
 
-          <h2 className="text-3xl w-full flex justify-center items-center font-bold">Proyectos notables</h2>
+          <h2 className="text-3xl text-[#0072e5] w-full flex justify-center items-center font-bold">Proyectos recientes:</h2>
 
           <div className="flex flex-wrap justify-center gap-4 mt-4">
 
@@ -67,7 +73,7 @@ export default function Home()
             {projectCardInfo.map(project => <ProjectCard key={uuid()}
                                                           title={project.title}
                                                           description={project.description}
-                                                          imageSrc="/sample.png"
+                                                          imageSrc={project.imageSrc}
                                                           buttons={project.buttons} 
                                                           tags={project.tags}/>)}
             

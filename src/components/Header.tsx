@@ -1,13 +1,18 @@
 import React from 'react'
 import Switch from './Switch'
 import Navbar from './Navbar'
+import { useAppSelector } from '@/lib/hooks'
 
-function Header() {
+function Header() 
+{
+    const isOnDarkMode = useAppSelector(state => state.theme.isOnDarkMode);
+
     return (
-        <div className='flex justify-center w-full border-b-[1px] border-b-[#3c3c3c]'>
+        <div style={{borderColor: isOnDarkMode ?  'rgba(194,224,255,0.08)' : '#E5EAF2'}}
+             className='flex justify-center w-full border-b-[1px]'>
           <header className="flex justify-around h-[65px] max-w-[1480px] w-full items-center">
             <label className="text-2xl max-md:hidden">
-              <a className="font-bold">Benevos</a> portafolio
+              <label className="font-bold text-[#0072e5]">Benevos</label> portafolio
             </label>
 
             <div className="flex gap-6 items-center justify-center">
