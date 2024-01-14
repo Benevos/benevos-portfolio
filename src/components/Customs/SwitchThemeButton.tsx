@@ -7,7 +7,7 @@ import React from 'react'
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { MdSunny } from "react-icons/md";
 
-function Switch(
+function SwitchThemeButton(
     { heigth='24px', width='40px', sliderSize=heigth, trackHeigth='100%',} : 
     { heigth?: string, width?: string, sliderSize?: string, trackHeigth?: string}) 
 {
@@ -48,4 +48,4 @@ function Switch(
   )
 }
 
-export default Switch
+export default SwitchThemeButton

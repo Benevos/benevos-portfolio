@@ -8,12 +8,14 @@ import PresentationTypeItLabels from './PresentationTypeItLabels';
 function PresentationTyping() 
 {
     return (
-        <div  className="flex flex-col items-center justify-center  h-full relative z-[5]">
+        <section className="h-[calc(100dvh-65px)] relative flex items-center justify-center" >
+            <div  className="flex flex-col items-center justify-center  h-full relative z-[5]">
 
-            <PresentationTypeItLabels/>
+                <PresentationTypeItLabels/>
 
-            <PresentationButtons/>
-        </div>
+                <PresentationButtons/>
+            </div>
+        </section>
     )
 }
 
@@ -33,3 +35,16 @@ export default PresentationTyping
         console.log(Math.ceil(windowHeight * windowWidth))
         letters.innerHTML = randomString(Math.ceil(windowHeight * windowWidth));
     } */
+
+
+    
+    /* <div className="absolute h-full w-full opacity-20 overflow-hidden cover-gradient transition-all"/>
+
+    <Letters/> */
+    
+    
+
+    
+        //#f0f7ff
+        
+  

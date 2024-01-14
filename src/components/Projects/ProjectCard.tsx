@@ -29,11 +29,10 @@ function ProjectCard(
 }) 
 {
     return (
-        <div className="relative rounded-md overflow-hidden text-white
-                                         w-[500px] h-[290px]
-                                         max-[650px]:w-[350px] max-[650px]:h-[203px]">
+        <div className="relative rounded-md overflow-hidden text-white w-[500px] group
+                        h-[290px] max-[650px]:w-[350px] max-[650px]:h-[203px]">
 
-            <div className="flex justify-center items-center h-full w-full pointer-events-none z-[1]">
+            <div className="flex justify-center items-center h-full w-full pointer-events-none z-[1] transition-all">
     
                 <Image className="h-full w-full" src={imageSrc} alt="project.png" height={800} width={800}/>
                 

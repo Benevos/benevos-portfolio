@@ -35,13 +35,13 @@ function PresentationTypeItLabels()
             getBeforeInit={(instance) => {
 
             instance.type('Hola, mi nombre es ',)
-                    .type('<label class="text-[#007fff]">Kevin<label>')
+                    .type('<label class="text-[#007fff] animate-pulse">Kevin<label>')
                     .exec(() => {dispatch(toggleNameAnimationState(nameAnimationEnded))}, {delay: 4300 })
                     .type('.', {delay: 500})
                     .type('.', {delay: 500})
                     .type('.', {delay: 500})
                     .delete(9)
-                    .type('<label class="text-[#007fff]">Benevos<label>')
+                    .type('<label class="text-[#007fff] animate-pulse">Benevos<label>')
                     
 
             return instance;

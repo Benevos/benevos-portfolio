@@ -1,5 +1,5 @@
 import React from 'react'
-import Switch from './Switch'
+import SwitchThemeButton from '../Customs/SwitchThemeButton'
 import Navbar from './Navbar'
 import { useAppSelector } from '@/lib/hooks'
 
@@ -19,7 +19,7 @@ function Header()
 
               <Navbar/>
               
-              <Switch sliderSize="27px" width="40px" trackHeigth="20px" />
+              <SwitchThemeButton sliderSize="27px" width="40px" trackHeigth="20px" />
               
             </div>
         </header>

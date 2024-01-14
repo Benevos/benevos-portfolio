@@ -1,6 +1,7 @@
 import { FaGithub } from "react-icons/fa6"
 import { LuExternalLink } from "react-icons/lu"
 import { FaYoutube } from "react-icons/fa";
+import { FaHistory } from "react-icons/fa";
 
 const projectCardInfo = [
     {
@@ -49,13 +50,18 @@ const projectCardInfo = [
     },
     {
         title: 'Calculo Mental',
-        description: '(/HOME DESARROLLO) Versión 2 de la plataforma de educación pensada para el uso de docentes integrando la tecnologia en sus aulas',
+        description: '(Inicio en desarollo) Versión 2 de la plataforma de educación pensada para el uso de docentes integrando la tecnologia en sus aulas',
         imageSrc: '/academic-web-app.png',
         buttons: [
         {
             icon: FaYoutube,
             color: '#f00000',
             url: 'https://youtu.be/XDvh5033-4I'
+        },
+        {
+            icon: FaHistory,
+            color: '#737373',
+            url: 'https://academic-web-app.vercel.app/'
         },
         {
             icon: LuExternalLink,
