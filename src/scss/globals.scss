@@ -9,6 +9,7 @@ body, html, :root {
 
 @import 'animations';
 @import 'presentation';
+@import 'scrollbar';
 @import 'skill_card';
 
 .letters-gradient
@@ -32,6 +33,24 @@ body, html, :root {
 
 }
 
+
+.bg-glass
+{
+  background: rgba(255, 255, 255, 0.14);
+
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: b1lur(12px);
+ 
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-bottom: 0px;
+  border-top: 0px;
+}
+
+.about-shadow
+{
+  box-shadow: -39px 0px 300px 0px rgba(0,0,0,0.5);
+}
 
 .project-card-button-shadows
 {
