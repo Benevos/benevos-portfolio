@@ -7,7 +7,9 @@ body, html, :root {
   height: 100%;
 }
 
-@import 'scrollbar';
+@import 'animations';
+@import 'presentation';
+@import 'skill_card';
 
 .letters-gradient
 {
@@ -36,38 +38,8 @@ body, html, :root {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.social-media-animation
+.skill-shadow
 {
-  animation: spawn-social-media 1500ms forwards;
-  animation-delay: 1000ms;
-  opacity: 0;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
 }
 
-.bounce
-{
-  animation: bounce 700ms infinite;
-}
-
-@keyframes spawn-social-media 
-{
-  0% {
-    opacity: 0;
-    transform: translateY(50%);
-  }  
-
-  100% {
-    opacity: 1;
-    transform: translateY(0%);
-  }
-}
-
-@keyframes bounce {
-  0%, 100% {
-    transform: translateY(-7%);
-    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
-  }
-  50% {
-    transform: translateY(5%);
-    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
-  }
-}

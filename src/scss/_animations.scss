@@ -1,0 +1,50 @@
+.fade-in-upside
+{
+  animation: spawn-social-media 1500ms forwards;
+  animation-delay: 1000ms;
+  opacity: 0;
+}
+
+.bounce-own
+{
+  animation: bounce 700ms infinite;
+}
+
+.pulse-bright
+{
+    animation: pulse-bright 1500ms infinite;
+}
+
+@keyframes spawn-social-media 
+{
+  0% {
+    opacity: 0;
+    transform: translateY(50%);
+  }  
+
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-7%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(5%);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+@keyframes pulse-bright {
+    0%, 100% {
+     filter: brightness(1);
+    }
+    
+    50% {
+     filter: brightness(1.3);
+    }
+}

@@ -45,7 +45,8 @@ const projectCardInfo = [
             tags: [
             {name: 'NextJS'},
             {name: 'React'},
-            {name: 'SASS'}
+            {name: 'SASS'},
+            {name: 'PayPal'}
         ]
     },
     {
@@ -97,7 +98,7 @@ const projectCardInfo = [
     {
         title: 'Xelhua',
         description: 'Plataforma de big data para crear servicios de análisis independientes en la nube de alta disponibilidad sin programación. Participé en la etapa de elasticidad para el sistema',
-        imageSrc: '/fmvz-store.png',
+        imageSrc: '/xel.png',
         buttons: [
         {
             icon: FaGithub,

@@ -1,6 +1,6 @@
 'use client';
 
-import React from 'react'
+import React, { useEffect } from 'react'
 
 import { v4 as uuid } from "uuid";
 
@@ -14,6 +14,11 @@ import ProjectCard from './ProjectCard';
 function Projects() 
 {
     const isOnDarkMode = useAppSelector(state => state.theme.isOnDarkMode)
+    
+    useEffect(() =>
+    {
+        
+    }, []);
 
     return (
         <section style={ { backgroundColor: isOnDarkMode ? '#0f1924' : '#d9eafd' } }

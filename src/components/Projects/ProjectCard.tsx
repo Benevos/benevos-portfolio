@@ -50,7 +50,7 @@ function ProjectCard(
                     {title}
                 </h3>
                 
-                <p className="pointer-events-none max-[650px]:text-sm">
+                <p className="pointer-events-none text-justify max-[650px]:text-sm">
                     {description}
                 </p>
                 

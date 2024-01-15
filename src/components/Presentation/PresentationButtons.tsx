@@ -11,7 +11,7 @@ function PresentationButtons()
     const mailSubject = '¡Vi tu portafolio, hablemos más!'
     const mailBody = 'Hola, me gustaría preguntarte...'
     return (
-        <div className='flex gap-3 mt-2 social-media-animation'>
+        <div className='flex gap-3 mt-2 fade-in-upside'>
     
             <Link href={'www.linkedin.com/in/kevdan092'} 
                     className='flex items-center justify-center text-white text-3xl bg-[#0a66c2] p-4 rounded cursor-pointer transition-all
@@ -19,7 +19,7 @@ function PresentationButtons()
                 <FaLinkedinIn/>
             </Link>
 
-            <Link href={'https://github.com/Benevos'} 
+            <Link href={'https://github.com/Benevos'}                    
                     className='flex items-center justify-center text-white text-3xl bg-[#010409] p-4 rounded cursor-pointer transition-all
                                hover:scale-[1.1] hover:brightness-150 max-sm:p-3 max-sm:text-2xl'>
                 <FaGithub/>
@@ -32,8 +32,8 @@ function PresentationButtons()
             </Link>
 
             <Link href={'/#'} 
-                    className='flex items-center gap-2 justify-center text-white text-3xl bg-[#0d1c2a] p-4 rounded cursor-pointer transition-all
-                               hover:scale-[1.1] hover:brightness-150 max-sm:p-2 max-sm:text-2xl bounce'>
+                    className='flex items-center gap-2 justify-center text-white text-3xl bg-[#12314e] p-4 rounded cursor-pointer transition-all
+                               hover:scale-[1.1] hover:brightness-150 max-sm:p-2 max-sm:text-2xl bounce-own'>
                 <FaFileDownload/>
                 <label className='text-lg pointer-events-none'>
                     Descargar CV
