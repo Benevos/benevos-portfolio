@@ -15,6 +15,11 @@
     animation: pulse-bright 1500ms infinite;
 }
 
+.move
+{
+  animation: move-foward-backward 4500ms linear infinite;
+}
+
 @keyframes spawn-social-media 
 {
   0% {
@@ -36,6 +41,18 @@
   50% {
     transform: translateY(5%);
     animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+@keyframes move-foward-backward {
+  0% {
+    transform: translateX(15%);
+  }
+  50% {
+    transform: translateX(-15%);
+  }
+  100% {
+    transform: translateX(15%);
   }
 }
 

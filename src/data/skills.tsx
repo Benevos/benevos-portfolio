@@ -1,4 +1,4 @@
-import { SiNextdotjs } from 'react-icons/si';
+import { SiDart, SiNextdotjs, SiRedux } from 'react-icons/si';
 import { FaDocker, FaGithub, FaNodeJs, FaReact } from 'react-icons/fa6';
 import { SiTailwindcss } from "react-icons/si";
 import { FaCss3Alt, FaSass } from "react-icons/fa";
@@ -13,9 +13,12 @@ import { FaHtml5 } from "react-icons/fa";
 import { DiJavascript } from "react-icons/di";
 import { FaGitAlt } from "react-icons/fa";
 
+
+
 const skillsInfo = [
     { Icon: <SiNextdotjs/>, color: undefined, name: 'Next'},
     { Icon: <FaReact/>, color: '#149eca', name:'React' },
+    { Icon: <SiRedux/>, color: '#6100ff', name:'Redux' },
     { Icon: <SiTailwindcss/>, color: '#38bdf8', name: 'Tailwind' },
     { Icon: <FaSass/>, color:'#ea388f', name:'SASS' },
     { Icon: <SiTypescript/>, color:'#377cc8', name:'Typescript' },
@@ -24,6 +27,7 @@ const skillsInfo = [
     { Icon: <SiFlutter/>, color:'#30b8f6', name:'Flutter' },
     { Icon: <FaPython/>, color:'#14ca18', name:'Python' },
     { Icon: <FaNodeJs/>, color:'#82cc2b', name:'Node' },
+    { Icon: <SiDart/>, color:'#00acfa', name:'Dart' },
     { Icon: <GrMysql/>, color:'#0074a8', name:'MySQL' },
     { Icon: <FaDocker/>, color:'#2b9aee', name:'Docker' },
     { Icon: <IoLogoTux/>, color:'#f7bf18', name:'Linux' },

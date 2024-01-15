@@ -1,8 +1,10 @@
 import { useAppSelector } from '@/lib/hooks';
 import Image from 'next/image';
 import React, { useState } from 'react'
+import Link from 'next/link';
 
 import { FaCaretLeft } from "react-icons/fa6";
+import Education from './Education';
 
 function About() 
 {
@@ -29,18 +31,24 @@ function About()
             
 
             <div style={{width: isAboutOpen ? '600px' : '0px', background: isOnDarkMode ? 'rgba(0,0,0,0.14)' : 'rgba(255,255,255,0.14)'}}
-                    className="h-full bg-glass transition-all duration-700 max-w-[600px] max-[670px]:max-w-[300px]"> 
+                    className="h-full bg-glass transition-all duration-700 max-w-[600px] max-[670px]:max-w-[300px] overflow-x-auto"> 
 
                 <div style={{opacity: isAboutOpen ? '1' : '0'}}
-                     className='h-full w-full flex flex-col items-center px-20 max-[670px]:px-6 py-6 overflow-y-auto duration-1000'>
+                     className='h-fit w-full flex flex-col items-center px-20 max-[670px]:px-6 py-6 overflow-x-hidden overflow-y-auto duration-1000'>
                     <Image src={'/benevos.jpg'} className='rounded-full' alt='benevos.jpg' width={200} height={200}/>
 
-                    <h2 className='text-4xl text-[#2994ff] mt-3 mb-2 font-bold pulse-bright'>Acerca de mi</h2>
+                    <h2 className='text-4xl max-[670px]:text-3xl text-[#2994ff] mt-3 mb-2 font-bold pulse-bright'>Sobre mi</h2>
 
-                    <p className='whitespace-pre-wrap text-justify'>
+                    <p className='whitespace-pre-wrap text-justify max-[670px]:text-sm'>
                       {
-                      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis laboriosam similique animi, odio et repellendus quibusdam quae ducimus id, distinctio voluptates expedita eveniet illum commodi quaerat neque exercitationem nesciunt placeat. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore, nesciunt molestiae commodi numquam quidem delectus. Odio, quia vitae saepe illo accusantium facere quaerat quidem? Earum aliquam mollitia architecto alias tenetur \n\n Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo autem modi quasi natus dicta. Molestiae quod vitae quaerat magnam numquam a voluptatibus. Nesciunt in pariatur ad deleniti eaque fugiat rem! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores ad eos facilis minima iure modi placeat neque, accusamus saepe non cupiditate labore ea repellat sapiente voluptatibus illo ipsum id exercitationem"}
+                      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis laboriosam similique animi, odio et repellendus quibusdam quae ducimus id, distinctio voluptates expedita eveniet illum commodi quaerat neque exercitationem nesciunt placeat. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore, nesciunt molestiae commodi numquam quidem delectus. Odio, quia vitae saepe illo accusantium facere quaerat quidem? Earum aliquam mollitia architecto alias tenetur"}
                     </p>
+
+                    <h2 className='text-4xl max-[670px]:text-3xl text-[#2994ff] mt-3 mb-2 font-bold pulse-bright'>Educación</h2>
+                    
+                    <Education/>
+
+                    <h2 className='text-4xl max-[670px]:text-3xl text-[#2994ff] mt-3 mb-2 font-bold pulse-bright'>Reconocimientos</h2>
                 </div>
             </div>
         </section>

@@ -11,7 +11,7 @@ import About from './About';
 function PresentationTyping() 
 {
     return (
-        <section className="h-[calc(100dvh-65px)] relative flex items-center justify-center overflow-hidden" >
+        <section className="h-[calc(100dvh-65px)] relative flex items-center justify-center overflow-hidden">
             <div  className="flex flex-col items-center justify-center  h-full relative z-[5]">
 
                 <PresentationTypeItLabels/>

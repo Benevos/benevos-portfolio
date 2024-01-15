@@ -28,7 +28,7 @@ function Skills()
                     {
                         skillsInfo
                             .map(skill => <SkillCard key={uuid()} Icon={skill.Icon} name={skill.name} color={skill.color}/>)
-                            .slice(0, showMore ? skillsInfo.length : 10)
+                            .slice(0, showMore ? skillsInfo.length : 12)
                     }
 
                 </div>
