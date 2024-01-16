@@ -116,7 +116,7 @@ const projectCardInfo = [
     },
     {
         title: 'Benevos Compiler',
-        description: "A compiler (actually an interpreter) that recognizes and processes a custom formal language made by me in order to compile it to functional and executable Python code. It was made for me to learn about low level systems",
+        description: "A compiler that recognizes and processes a formal language made by me in order to compile it to executable Python code. It was created for me to learn about low level systems",
         imageSrc: '/compiler.png',
         buttons: [
         {
@@ -134,7 +134,6 @@ const projectCardInfo = [
             {name: 'NextJS'},
             {name: 'React'},
             {name: 'TailwindCSS'},
-            {name: 'SASS'},
             {name: 'NodeJS'},
             {name: 'Python'},
         ]

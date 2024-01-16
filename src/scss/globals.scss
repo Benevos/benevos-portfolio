@@ -10,28 +10,15 @@ body, html, :root {
 @import 'animations';
 @import 'presentation';
 @import 'skill_card';
-
-.letters-gradient
-{
   
 
-  background: radial-gradient(circle, rgba(2,0,36,0) 20%, rgba(119,0,255,1) 31%, rgba(29,79,216,1) 52%, rgba(0,212,255,1) 72%, rgba(119,0,255,1) 87%, rgba(255,0,254,1) 100%);
-  background-clip: text;
-
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  
-}
-
-.cover-gradient
+.max-h-xs
 {
- 
-  background: radial-gradient(circle, rgba(2,0,36,0) 20%, rgba(119,0,255,1) 31%, rgba(29,79,216,1) 52%, rgba(0,212,255,1) 72%, rgba(119,0,255,1) 87%, rgba(255,0,254,1) 100%);
-
-  -webkit-text-fill-color: transparent;
-
+  
+  @media screen and (max-height: 550px) {
+    display: none;
+  }
 }
-
 
 .bg-glass
 {
@@ -66,3 +53,20 @@ body, html, :root {
   box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
 }
 
+/* 
+  background: radial-gradient(circle, rgba(2,0,36,0) 20%, rgba(119,0,255,1) 31%, rgba(29,79,216,1) 52%, rgba(0,212,255,1) 72%, rgba(119,0,255,1) 87%, rgba(255,0,254,1) 100%);
+  background-clip: text;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+
+.cover-gradient
+{
+ 
+  background: radial-gradient(circle, rgba(2,0,36,0) 20%, rgba(119,0,255,1) 31%, rgba(29,79,216,1) 52%, rgba(0,212,255,1) 72%, rgba(119,0,255,1) 87%, rgba(255,0,254,1) 100%);
+
+  -webkit-text-fill-color: transparent;
+
+} */

@@ -23,7 +23,7 @@ function PresentationTyping()
                 
             </div>
 
-            <div className={`${dancingScript.className} flex justify-center items-center text-5xl max-[670px]:text-3xl absolute bottom-[15%]`}>
+            <div className={`${dancingScript.className} flex justify-center items-center text-5xl max-[670px]:text-3xl absolute bottom-[15%] max-h-xs`}>
                 <label className='absolute -left-10 max-[670px]:-left-5'>-</label>
                 <label>{'"Not a pet food trademark"'}</label>
             </div>
