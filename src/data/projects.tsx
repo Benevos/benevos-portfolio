@@ -114,6 +114,31 @@ const projectCardInfo = [
             {name: 'Distributed services'},
         ]
     },
+    {
+        title: 'Benevos Compiler',
+        description: "A compiler (actually an interpreter) that recognizes and processes a custom formal language made by me in order to compile it to functional and executable Python code. It was made for me to learn about low level systems",
+        imageSrc: '/compiler.png',
+        buttons: [
+        {
+            icon: FaGithub,
+            color: '#010409',
+            url: 'https://github.com/Benevos/scanner-parser-compiler-nextjs'
+        },
+        {
+            icon: LuExternalLink,
+            color: '#1d4ed8',
+            url: 'https://benevos-compiler.vercel.app/'
+        },
+        ],
+            tags: [
+            {name: 'NextJS'},
+            {name: 'React'},
+            {name: 'TailwindCSS'},
+            {name: 'SASS'},
+            {name: 'NodeJS'},
+            {name: 'Python'},
+        ]
+    },
 ]
 
 export const defaultButtonConfig = [

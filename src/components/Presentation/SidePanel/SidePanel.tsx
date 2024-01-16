@@ -18,7 +18,7 @@ function SidePanel()
     const isOnDarkMode = useAppSelector(state => state.theme.isOnDarkMode);
 
     return (
-        <section className='absolute h-full right-0 flex z-[6]'>
+        <div className='absolute h-full right-0 flex z-[6]'>
 
             <div style={ isAboutOpen ? { animation: 'none' } : {}} 
                     className='absolute flex flex-col items-center rounded-l-2xl bg-[#0072e5] w-[40px] h-[95px] mt-7 overflow-hidden animate-ping'>
@@ -43,8 +43,6 @@ function SidePanel()
                     <Image src={'/benevos.jpg'} className='rounded-full' alt='benevos.jpg' width={200} height={200}/>
 
                     <About/>
-
-                    <h2 className='text-4xl max-[670px]:text-3xl text-[#2994ff] mt-3 mb-2 font-bold pulse-bright'>Education</h2>
                     
                     <Education/>
 
@@ -54,7 +52,7 @@ function SidePanel()
           
                 </div>
             </div>
-        </section>
+        </div>
     )
 }
 

@@ -18,7 +18,7 @@ function Skills()
             <div className="max-w-[1480px] w-full py-4">
                 <div className="flex justify-center items-center w-full font-semibold gap-2">
 
-                    <h2 className="text-[33px] max-sm:text-3xl text-[#0072e5]">Skills</h2>
+                    <h2 className="text-4xl text-[#0072e5]">Skills</h2>
 
                     <GiSkills className="text-2xl"/>
                 </div>

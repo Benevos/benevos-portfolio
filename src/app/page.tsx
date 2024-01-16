@@ -10,6 +10,7 @@ import Header from "@/components/Header/Header";
 import Presentation from "@/components/Presentation/Presentation";
 import Projects from "@/components/Projects/Projects";
 import Skills from "@/components/Skills/Skills";
+import Experience from "@/components/Experience/Experience";
 
 export default function Home() 
 {
@@ -53,6 +54,8 @@ export default function Home()
       <Projects/>
 
       <Skills/>
+
+      <Experience/>
 
     </main>
   )

@@ -14,11 +14,6 @@ import ProjectCard from './ProjectCard';
 function Projects() 
 {
     const isOnDarkMode = useAppSelector(state => state.theme.isOnDarkMode)
-    
-    useEffect(() =>
-    {
-        
-    }, []);
 
     return (
         <section style={ { backgroundColor: isOnDarkMode ? '#0f1924' : '#d9eafd' } }
@@ -27,7 +22,7 @@ function Projects()
             <div className="max-w-[1480px] w-full py-4">
                 
                 <div className="flex justify-center items-center w-full font-semibold gap-3">
-                    <h2 className="text-[33px] max-sm:text-3xl text-[#0072e5]">
+                    <h2 className="text-4xl text-[#0072e5]">
                     Recent projects
                     </h2>
 
@@ -52,6 +47,8 @@ function Projects()
 
                 </div>
             </div>
+
+            <span about='dummy' className='hidden dark:ring-[#0f1924] ring-[#d9eafd]'></span>
         </section>
     )
 }

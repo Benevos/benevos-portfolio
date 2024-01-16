@@ -10,7 +10,7 @@ function Certifications()
     const isOnDarkMode = useAppSelector(state => state.theme.isOnDarkMode);
 
     return (
-        <>
+        <section className='w-full flex flex-col items-center'>
             <h2 className='text-4xl max-[670px]:text-3xl text-[#2994ff] mt-3 mb-2 font-bold pulse-bright'>Certifications</h2>
 
             <Link href={'https://www.efset.org/cert/H11z1M'} style={{borderColor: isOnDarkMode ? 'white' : 'black'}}
@@ -21,7 +21,7 @@ function Certifications()
                 <label className='text-md pointer-events-none'>EFSET English Certificate 80/100 (C2 Proficient)</label>
                 
             </Link>
-        </>
+        </section>
     )
 }
 

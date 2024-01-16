@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import { Roboto } from 'next/font/google'
 import '../scss/globals.scss'
 import Providers from '@/components/Providers';
-import opengGrapgImage from '@/data/benevos-site.png';
+import { ThemeModeScript } from 'flowbite-react';
 
 const roboto = Roboto({ subsets: ['latin'], weight: ['100', '300', '400', '500', '700', '900'] });
 
@@ -51,6 +51,7 @@ export default function RootLayout({
           type="image/<generated>"
           sizes="<generated>"
         />
+        <ThemeModeScript/>
       </head>
       <body className={roboto.className + " scrollbar"}>
         <Providers>
