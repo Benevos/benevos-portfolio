@@ -13,7 +13,7 @@ function PresentationButtons()
     return (
         <div className='flex gap-3 mt-2 fade-in-upside'>
     
-            <Link href={'www.linkedin.com/in/kevdan092'} 
+            <Link href={'https://www.linkedin.com/in/benevos'} 
                     className='flex items-center justify-center text-white text-3xl bg-[#0a66c2] p-4 rounded cursor-pointer transition-all
                                hover:scale-[1.1] hover:brightness-125 max-sm:p-3 max-sm:text-2xl'>
                 <FaLinkedinIn/>
@@ -36,7 +36,7 @@ function PresentationButtons()
                                hover:scale-[1.1] hover:brightness-150 max-sm:p-2 max-sm:text-2xl bounce-own'>
                 <FaFileDownload/>
                 <label className='text-lg pointer-events-none'>
-                    Descargar CV
+                    Get Resume!
                 </label>
             </Link>
 

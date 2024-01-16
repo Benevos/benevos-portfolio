@@ -7,17 +7,17 @@ function Navbar() {
             <ul className="flex items-center gap-10 max-md:gap-4">
                 <li>
                     <Link href={'/#'}>
-                        Inicio
+                        Home
                     </Link>
                 </li>
                 <li>
                     <Link href={'/#'}>
-                        Proyectos
+                        Projects
                     </Link>
                 </li>
                     <li>
                         <Link href={'/#'}>
-                            Contacto
+                            Contact
                     </Link>
                 </li>
             </ul>

@@ -5,8 +5,8 @@ import { FaHistory } from "react-icons/fa";
 
 const projectCardInfo = [
     {
-        title: 'Deslizador de jugos',
-        description: 'Deslizador de jugos animado insipirado en un diseño de MarcoDesignerX en TikTok',
+        title: 'Juice Slider',
+        description: 'Animated juice slider inspired by a design by MarcoDesignerX on TikTok',
         imageSrc: '/juice-slider.png',
         buttons: [
         {
@@ -27,8 +27,8 @@ const projectCardInfo = [
         ]
     },
     {
-        title: 'Tienda FMVZ',
-        description: 'E-commerce inspirado en el crecimiento del las PYMES dentro del mercado mexicano',
+        title: 'FMVZ Store',
+        description: 'E-commerce inspired by the growth of SMEs within the Mexican market',
         imageSrc: '/fmvz-store.png',
         buttons: [
         {
@@ -50,8 +50,8 @@ const projectCardInfo = [
         ]
     },
     {
-        title: 'Calculo Mental',
-        description: '(Inicio en desarollo) Versión 2 de la plataforma de educación pensada para el uso de docentes integrando la tecnologia en sus aulas',
+        title: 'Calculo Mental (Web)',
+        description: '(New version in development, click on history button to access to the legacy complete version) Education platform designed for teachers in order to integrate technology in their classrooms',
         imageSrc: '/academic-web-app.png',
         buttons: [
         {
@@ -79,8 +79,8 @@ const projectCardInfo = [
         ]
     },
     {
-        title: 'Calculo Mental (Móvil)',
-        description: 'Aplicación móvil en Flutter en conjunto con una plataforma web (Calculo Mental) enfocada al uso de estudiantes para mejorar sus habilidades lógico matemáticas',
+        title: 'Calculo Mental (Mobile)',
+        description: 'Mobile app in Flutter in conjunction of a web platform (Calculo Mental) focused on students to improve their logical-mathematical skills',
         imageSrc: '/academic-mobile-app.jpg',
         buttons: [
             {
@@ -97,7 +97,7 @@ const projectCardInfo = [
     },
     {
         title: 'Xelhua',
-        description: 'Plataforma de big data para crear servicios de análisis independientes en la nube de alta disponibilidad sin programación. Participé en la etapa de elasticidad para el sistema',
+        description: "Platform that enables end-users and organizations the use graphical schemes to build cloud agnostic big data analytics services without code. I participated in system's elasticity phase.",
         imageSrc: '/xel.png',
         buttons: [
         {
@@ -110,8 +110,8 @@ const projectCardInfo = [
             {name: 'Python'},
             {name: 'Docker'},
             {name: 'Linux'},
-            {name: 'Nube'},
-            {name: 'Sistemas distribuidos'},
+            {name: 'Cloud'},
+            {name: 'Distributed services'},
         ]
     },
 ]

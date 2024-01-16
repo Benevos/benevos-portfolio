@@ -34,7 +34,7 @@ function PresentationTypeItLabels()
 
             getBeforeInit={(instance) => {
 
-            instance.type('Hola, mi nombre es ',)
+            instance.type('Hi, my name is ',)
                     .type('<label class="text-[#007fff] animate-pulse">Kevin<label>')
                     .exec(() => {dispatch(toggleNameAnimationState(nameAnimationEnded))}, {delay: 4300 })
                     .type('.', {delay: 500})
@@ -54,9 +54,10 @@ function PresentationTypeItLabels()
                 options={{ speed: 20, afterComplete: (instance: any) => { instance.destroy() } }}
                 getBeforeInit={(instance) => {
                 
-                instance.type('Desarrollador FrontEnd', { delay: 500 })
+                instance.type('Frontend Developer', { delay: 500 })
+                        .move(-10)
                         .delete(8)
-                        .type('BackEnd', { delay: 500 })
+                        .type('Backend', { delay: 500 })
                         .delete(7).type('Fullstack')
 
                 return instance

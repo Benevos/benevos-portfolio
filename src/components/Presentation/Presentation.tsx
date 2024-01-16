@@ -4,24 +4,32 @@ import React, { useState } from 'react'
 
 import PresentationButtons from './PresentationButtons';
 import PresentationTypeItLabels from './PresentationTypeItLabels';
-import About from './About';
+import SidePanel from './SidePanel/SidePanel';
 
 
+import { Dancing_Script } from 'next/font/google';
+
+const dancingScript = Dancing_Script({ subsets: ['latin'] });
 
 function PresentationTyping() 
 {
     return (
-        <section className="h-[calc(100dvh-65px)] relative flex items-center justify-center overflow-hidden">
+        <section className="h-[calc(100dvh-65px)] relative flex flex-col items-center justify-center overflow-hidden">
             <div  className="flex flex-col items-center justify-center  h-full relative z-[5]">
 
                 <PresentationTypeItLabels/>
 
                 <PresentationButtons/>
-
                 
             </div>
 
-            <About/>
+            <div className={`${dancingScript.className} flex justify-center items-center text-5xl max-[670px]:text-3xl absolute bottom-[15%]`}>
+                <label className='absolute -left-10 max-[670px]:-left-5'>-</label>
+                <label>{'"Not a pet food trademark"'}</label>
+            </div>
+            
+
+         <SidePanel/>
             
         </section>
     )

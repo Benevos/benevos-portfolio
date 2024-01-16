@@ -7,7 +7,7 @@ import { v4 as uuid } from "uuid";
 import { HiCursorClick } from "react-icons/hi";
 import { FaImage } from "react-icons/fa";
 
-import projectCardInfo from "@/data/projects";
+import projectCardInfo from '@/data/projects';
 import { useAppSelector } from '@/lib/hooks';
 import ProjectCard from './ProjectCard';
 
@@ -28,7 +28,7 @@ function Projects()
                 
                 <div className="flex justify-center items-center w-full font-semibold gap-3">
                     <h2 className="text-[33px] max-sm:text-3xl text-[#0072e5]">
-                    Proyectos recientes
+                    Recent projects
                     </h2>
 
                     <div className="relative flex justify-center items-center">
