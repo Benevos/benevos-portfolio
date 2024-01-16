@@ -1,6 +1,6 @@
 # About the project
 
-This project shows my developer porfolio by manifesting the main aspects of my carrer as software engineer.
+This project shows my developer portfolio by manifesting the main aspects of my carrer as software engineer.
 
 
 ## Licensing
