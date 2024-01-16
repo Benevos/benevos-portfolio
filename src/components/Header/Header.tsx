@@ -12,7 +12,7 @@ function Header()
              className='flex justify-center w-full border-b-[1px]'>
           <header className="flex justify-around h-[65px] max-w-[1480px] w-full items-center">
             <label className="text-2xl max-md:hidden">
-              <label className="font-bold text-[#0072e5]">Benevos</label> portafolio
+              <label className="font-bold text-[#0072e5]">Benevos</label> portfolio
             </label>
 
             <div className="flex gap-6 items-center justify-center">
