@@ -24,9 +24,15 @@ export const metadata: Metadata = {
       {
         url: 'https://benevos-portfolio.vercel.app/benevos-site.png',
         alt: 'benevos-site.png',
-        width: '1800',
-        height: '1600'
-      }
+        width: '1987',
+        height: '865'
+      },
+      {
+        url: 'https://benevos-portfolio.vercel.app/benevos.jpg',
+        alt: 'benevos.jpg',
+        width: '890',
+        height: '898'
+      },
     ]
   }
 }
