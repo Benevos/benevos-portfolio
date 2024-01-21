@@ -1,12 +1,14 @@
 import { configureStore } from '@reduxjs/toolkit'
 import themeReducer from './features/theme/themeSlice'
 import animationsReducer from './features/theme/animationsSlice'
+import uiStateReducer from './features/theme/uiStateSlice';
 
 export const makeStore = () => {
   return configureStore({
     reducer: {
         theme: themeReducer,
-        animations: animationsReducer, 
+        animations: animationsReducer,
+        uiState:  uiStateReducer,
     }
   })
 }

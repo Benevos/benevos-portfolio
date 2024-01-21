@@ -14,7 +14,7 @@ function Skills()
     const [showMore, setShowMore] = useState(false);
 
     return (
-        <section className="flex flex-col items-center">
+        <section id='skills-section' className="flex flex-col items-center">
             <div className="max-w-[1480px] w-full py-4">
                 <div className="flex justify-center items-center w-full font-semibold gap-2">
 

@@ -16,8 +16,8 @@ function Projects()
     const isOnDarkMode = useAppSelector(state => state.theme.isOnDarkMode)
 
     return (
-        <section style={ { backgroundColor: isOnDarkMode ? '#0f1924' : '#d9eafd' } }
-        className="flex flex-col items-center transition-all duration-700">
+        <section id='projects-section' style={ { backgroundColor: isOnDarkMode ? '#0f1924' : '#d9eafd' } }
+        className="flex flex-col items-center transition-all duration-300">
 
             <div className="max-w-[1480px] w-full py-4">
                 

@@ -13,7 +13,7 @@ function About()
                 <label className='font-bold text-lg'>Tamaulipas</label>
             </div>
 
-            <p className='whitespace-pre-wrap text-justify indent-12 max-[670px]:text-sm'>
+            <p className='whitespace-pre-wrap text-center text-pretty max-[670px]:text-sm'>
                 {
                 "I define myself as appasionate to use my knowledge to develop high quality and efficiency products. I enjoy facing new challenges during the crafting process, which allows me to learn constantly and improve my skills as professional in my specialty area. I stand out by my capacity to collaborate with a team and conduct projects to success through and effective leadership, with the objective of achieve results and grow a comfort environment."}
             </p>

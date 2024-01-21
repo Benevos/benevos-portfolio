@@ -11,8 +11,8 @@ function Experience()
     const isOnDarkMode = useAppSelector(state => state.theme.isOnDarkMode)
 
     return (
-        <section style={ { backgroundColor: isOnDarkMode ? '#0f1924' : '#d9eafd' } }
-                 className="w-full flex flex-col items-center transition-all duration-700">
+        <section id='experience-section' style={ { backgroundColor: isOnDarkMode ? '#0f1924' : '#d9eafd' } }
+                 className="w-full flex flex-col items-center transition-all duration-300">
             <div className="max-w-[1480px] w-full py-4">
 
                 <div className="flex justify-center items-center w-full font-semibold mb-6 gap-2">

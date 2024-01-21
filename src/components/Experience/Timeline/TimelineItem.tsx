@@ -6,6 +6,8 @@ import { IconType } from 'react-icons';
 import { v4 as uuid } from 'uuid';
 
 import TimelineTitleTag from './TimelineTitleTag';
+import TimelineParagraph from './TimelineParagraph';
+import TimelineList from './TimelineList';
 
 interface TimelineItemType  {
     title: string,
@@ -41,26 +43,16 @@ function TimelineItem(props: TimelineItemType)
             </time>
 
 
-            { description && descriptionList ?
-                <>
-                    <p className="mb-4 text-xl font-normal text-gray-500 dark:text-gray-400">
-                        { description }
-                    </p> 
+            { 
+                description && descriptionList ?
+                <> <TimelineParagraph text={description}/> <TimelineList list={descriptionList}/> </> :
 
-                    <ul className='text-xl text-gray-500 dark:text-gray-400'>
-                        { descriptionList.map(item => <li key={uuid()}>• {item}</li>) }
-                    </ul>
-                </> 
-                :
-                description && ! descriptionList ? 
-                    <p className="mb-4 text-xl font-normal text-gray-500 dark:text-gray-400">
-                        { description }
-                    </p> 
-                :
-                descriptionList ?
-                <ul className='text-xl text-gray-500 dark:text-gray-400'>
-                    { descriptionList.map(item => <li key={uuid()}>• {item}</li>) }
-                </ul> : <></>
+                description && ! descriptionList ?
+
+                    <TimelineParagraph text={description}/> :
+
+                descriptionList ? 
+                    <TimelineList list={descriptionList}/> : <></>
             }
             
         </li>

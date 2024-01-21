@@ -50,7 +50,7 @@ const projectCardInfo = [
         ]
     },
     {
-        title: 'Calculo Mental (Web)',
+        title: 'Calcula UAT (Web)',
         description: '(New version in development, click on history button to access to the legacy complete version) Education platform designed for teachers in order to integrate technology in their classrooms',
         imageSrc: '/academic-web-app.png',
         buttons: [
@@ -79,7 +79,7 @@ const projectCardInfo = [
         ]
     },
     {
-        title: 'Calculo Mental (Mobile)',
+        title: 'Calcula UAT (Mobile)',
         description: 'Mobile app in Flutter in conjunction of a web platform (Calculo Mental) focused on students to improve their logical-mathematical skills',
         imageSrc: '/academic-mobile-app.jpg',
         buttons: [

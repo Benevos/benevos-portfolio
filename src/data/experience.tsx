@@ -20,7 +20,7 @@ const experienceInfo: (TimelineItemType)[] = [
         Icon: MdWork
     },
     {
-        title: 'Calculo Mental (Web & Mobile)',
+        title: 'Calcula UAT (Web & Mobile)',
         dateLabel: 'January 2023 - October 2023',
         descriptionList: ['Development, design and deploy of cross plataform applications', 'Mobile apps with Flutter', 'Web implementations with NextJS',
                            'In-Cloud solutions with Google services'],

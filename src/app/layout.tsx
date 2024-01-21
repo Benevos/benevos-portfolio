@@ -8,6 +8,7 @@ const roboto = Roboto({ subsets: ['latin'], weight: ['100', '300', '400', '500',
 
 export const metadata: Metadata = {
   title: 'Benevos portfolio',
+  metadataBase: new URL('https://benevos.vercel.app'),
   description: "Meet me! My name is Kevin a Fullstack engineer, also known as Benevos. You're welcome to see the path I've made as developer",
   keywords: ['benevos','kevin','developer','fullstack','web','frontend','backend','mendoza','portfolio','engineer',
             'desarrollador', 'portafolio', 'ingeniero', 'sistemas'],
@@ -22,13 +23,13 @@ export const metadata: Metadata = {
     emails: ['kevin_mendoza092@hotmail.com'],
     images: [
       {
-        url: 'https://benevos-portfolio.vercel.app/benevos-site.png',
+        url: '/benevos-site.png',
         alt: 'benevos-site.png',
         width: '1987',
         height: '865'
       },
       {
-        url: 'https://benevos-portfolio.vercel.app/benevos.jpg',
+        url: '/benevos.jpg',
         alt: 'benevos.jpg',
         width: '890',
         height: '898'

@@ -11,12 +11,15 @@ import Presentation from "@/components/Presentation/Presentation";
 import Projects from "@/components/Projects/Projects";
 import Skills from "@/components/Skills/Skills";
 import Experience from "@/components/Experience/Experience";
+import TopFiller from "@/components/TopFiller";
+import MobileNavPanel from "@/components/MobileNavPanel";
+import { useWindowWidthSize } from "@/components/Customs/useWindowSize";
 
 export default function Home() 
 {
   
   const isOnDarkMode = useAppSelector(state => state.theme.isOnDarkMode)
-
+  
   const dispatch = useAppDispatch();
 
   const watchForDarkMode = () =>
@@ -41,11 +44,15 @@ export default function Home()
   useEffect(() => 
   {
     watchForDarkMode();
-
   }, []);
 
+
+
+
   return (
-    <main className={isOnDarkMode ? "bg-[#101418] text-white transition-all duration-700" : 'bg-white text-black transition-all duration-700'}>
+    <main className={isOnDarkMode ? "bg-[#101418] text-white transition-all duration-300" : 'bg-white text-black transition-all duration-300'}>
+
+      <TopFiller/>
 
       <Header/>
 
@@ -56,6 +63,8 @@ export default function Home()
       <Skills/>
 
       <Experience/>
+
+      <MobileNavPanel/>
 
     </main>
   )

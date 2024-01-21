@@ -13,11 +13,16 @@ import { FaHtml5 } from "react-icons/fa";
 import { DiJavascript } from "react-icons/di";
 import { FaGitAlt } from "react-icons/fa";
 
+import { TbBrandReactNative } from "react-icons/tb";
+import { IoLogoElectron } from "react-icons/io5";
+
 
 
 const skillsInfo = [
     { Icon: <SiNextdotjs/>, color: undefined, name: 'Next'},
     { Icon: <FaReact/>, color: '#149eca', name:'React' },
+//    { Icon: <TbBrandReactNative/>, color: '#149eca', name:'React Native' },
+//    { Icon: <IoLogoElectron/>, color: '#149eca', name:'Electron' },
     { Icon: <SiRedux/>, color: '#6100ff', name:'Redux' },
     { Icon: <SiTailwindcss/>, color: '#38bdf8', name: 'Tailwind' },
     { Icon: <FaSass/>, color:'#ea388f', name:'SASS' },
