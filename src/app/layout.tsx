@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     siteName: 'Benevos portfolio',
     type: 'website',
     countryName: 'Mexico',
-    url: 'https://benevos-portfolio.vercel.app/',
+    url: 'https://benevos.vercel.app/',
     emails: ['kevin_mendoza092@hotmail.com'],
     images: [
       {
