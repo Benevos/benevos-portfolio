@@ -22,7 +22,7 @@ function Resume()
         body.style.display = 'flex';
         body.style.flexDirection = 'column';
         body.style.alignItems = 'center';
-        body.style.backgroundColor ='#101418'
+        body.style.backgroundColor ='black'
     }, []);
 
     useEffect(() =>
@@ -39,7 +39,7 @@ function Resume()
     }, [windowWidth])
 
     return (
-        <div className='w-full flex flex-col items-center h-[1050px] min-h-[1050px] max-w-[813px] min-w-[813px]
+        <div className='w-full flex flex-col items-center h-[1056px] min-h-[1056px] max-w-[813px] min-w-[813px]
                         px-[45px] py-[45px] bg-white relative'>
             <ReHeader/>
 
