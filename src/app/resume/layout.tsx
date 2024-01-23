@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import { Roboto } from 'next/font/google'
-import '../scss/globals.scss'
+import '../../scss/globals.scss'
 import Providers from '@/components/Providers';
 
 const roboto = Roboto({ subsets: ['latin'], weight: ['100', '300', '400', '500', '700', '900'] });
@@ -52,11 +52,9 @@ export default function RootLayout({
           sizes="<generated>"
         />
       </head>
-      <body className={roboto.className + " flex flex-col items-center bg-slate-600"}>
+      <body className={roboto.className + " scrollbar"}>
         <Providers>
-
           {children}
-
         </Providers>
       </body>
     </html>

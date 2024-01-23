@@ -13,7 +13,6 @@ import Skills from "@/components/Skills/Skills";
 import Experience from "@/components/Experience/Experience";
 import TopFiller from "@/components/TopFiller";
 import MobileNavPanel from "@/components/MobileNavPanel";
-import { useWindowWidthSize } from "@/components/Customs/useWindowSize";
 
 export default function Home() 
 {
