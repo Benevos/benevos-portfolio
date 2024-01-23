@@ -31,7 +31,7 @@ function PresentationButtons()
                 <IoMail/>
             </Link>
 
-            <Link href={'/#'} 
+            <Link href={'resume.pdf'} download={'benevos_resume'}
                     className='flex items-center gap-2 justify-center text-white text-3xl bg-[#12314e] p-4 rounded cursor-pointer transition-all
                                hover:scale-[1.1] hover:brightness-150 max-sm:p-2 max-sm:text-2xl bounce-own'>
                 <FaFileDownload/>
