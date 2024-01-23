@@ -16,10 +16,10 @@ function ReExperienceItem(props: experienceItemType)
         <div className='w-full mt-3'>
             <div className='flex items-center justify-between'>
                 <h3 className='font-bold'>{title}</h3>
-                <label className='text-[13px]'>{date}</label>
+                <label className='text-[13px] text-[#5b5b5b]'>{date}</label>
             </div>
 
-            {organization ? <label className=''>{organization}</label> : <></>}
+            {organization ? <label className='text-[#5b5b5b]'>{organization}</label> : <></>}
             
             <ul className='w-full mt-1 text-justify'>
                 

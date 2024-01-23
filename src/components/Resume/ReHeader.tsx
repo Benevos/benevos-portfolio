@@ -18,10 +18,10 @@ function ReHeader() {
                 <h2 className='text-base'>
                     Computer Science Engineer
                 </h2>
-                <ReContactItem Icon={LuLanguages} title='English (C2), Spanish (Native)'/>
+                <ReContactItem Icon={LuLanguages} title='English (Proficient), Spanish (Native)'/>
             </section>
 
-            <section className='flex flex-col gap-[2px]'>
+            <section className='flex flex-col gap-[2px] max-md:mt-3'>
                 <ReContactItem Icon={IoMail} title='kevin_mendoza092@hotmail.com'/>
                 <ReContactItem Icon={FaPhone} title='+53 831 102 4666'/>
                 <ReContactItem Icon={PiCursorFill} title='https://benevos.vercel.app/'/>

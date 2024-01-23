@@ -52,11 +52,9 @@ export default function RootLayout({
           sizes="<generated>"
         />
       </head>
-      <body className={roboto.className + " flex flex-col items-center bg-slate-600"}>
+      <body className={roboto.className + " scrollbar"}>
         <Providers>
-
           {children}
-
         </Providers>
       </body>
     </html>
