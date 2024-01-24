@@ -25,7 +25,7 @@ function ReHeader() {
                 <ReContactItem Icon={IoMail} title='kevin_mendoza092@hotmail.com'/>
                 <ReContactItem Icon={FaPhone} title='+52 831 102 4666'/>
                 <ReContactItem Icon={PiCursorFill} title='https://benevos.vercel.app/'/>
-                <ReContactItem Icon={MdLocationOn} title='Tamaulipas, Mexico'/>
+                <ReContactItem Icon={MdLocationOn} title='Tamaulipas, México'/>
             </section>
         </div>
     )

@@ -40,7 +40,7 @@ function Resume()
 
     return (
         <div className='w-full flex flex-col items-center h-[1056px] min-h-[1056px] max-w-[813px] min-w-[813px]
-                        px-[45px] py-[45px] bg-white relative'>
+                        px-[45px] py-[35px] bg-white relative'>
             <ReHeader/>
 
             <ReSummary/>

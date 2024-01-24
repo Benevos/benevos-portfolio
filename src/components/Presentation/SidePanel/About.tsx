@@ -13,9 +13,9 @@ function About()
                 <label className='font-bold text-lg'>Tamaulipas</label>
             </div>
 
-            <p className='whitespace-pre-wrap text-center text-pretty max-[670px]:text-sm'>
+            <p className='whitespace-pre-wrap text-center text-pretty text-[15px] leading-5'>
                 {
-                "I define myself as appasionate to use my knowledge to develop high quality and efficiency products. I enjoy facing new challenges during the crafting process, which allows me to learn constantly and improve my skills as professional in my specialty area. I stand out by my capacity to collaborate with a team and conduct projects to success through and effective leadership, with the objective of achieve results and grow a comfort environment."}
+                "Computer science engineer with experience in fullstack solutions, with projects that involve web, mobile, servers and process automation technologies. I am a self-confident and like to present ideas and learn from others without fear of speaking in public or defending my position, feeling competent in fields such as speech, leadership and interpersonal ties. Even with all this, I am aware of not having world's knowledge, but as an engineer, I believe not knowing something doesn't mean it can't be learned. My favorite hobbies are video games, gym, watching series and learning new technologies and programming methods"}
             </p>
         </section>
     )
