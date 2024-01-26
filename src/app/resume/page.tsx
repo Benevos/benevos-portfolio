@@ -60,7 +60,7 @@ function Resume()
                 <ReHonors/>
             </div>
 
-            <label className='absolute flex gap-1 items-center top-2 left-12 text-xs text-[#767676]'><FaReact/> This document is a web page developed on React whitin a Next project saved as PDF! You visit it at benevos.vercel.app/resume</label>
+            <label className='absolute flex gap-1 items-center top-2 left-12 text-xs text-[#767676]'><FaReact/> This document is a web page developed on React whitin a Next project saved as PDF! You can visit it at benevos.vercel.app/resume</label>
         </div>      
     )
 }
