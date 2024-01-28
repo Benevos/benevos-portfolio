@@ -45,7 +45,7 @@ function SidePanel()
                     className="h-full bg-glass transition-all duration-500 max-w-[600px] max-[670px]:max-w-[330px] overflow-x-hidden overflow-y-auto"> 
 
                 <div
-                     className='h-fit w-[552px] max-[670px]:w-[310px] flex flex-col items-center px-20 
+                     className='h-fit w-[575px] max-[670px]:w-[330px] flex flex-col items-center px-20 
                                 max-[670px]:px-6 py-6 overflow-y-auto'>
 
                     <Image src={'/benevos.jpg'} className='rounded-full' alt='benevos.jpg' width={200} height={200}/>
