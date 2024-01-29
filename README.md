@@ -1,6 +1,6 @@
 # About the project
 
-This project shows my developer portfolio by manifesting the main aspects of my carrer as software engineer.
+This project shows my developer portfolio by manifesting the main aspects of my carrer as software engineer. Only works on Android since I do not have mediums to emulate iOS
 
 
 ## Licensing

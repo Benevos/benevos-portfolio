@@ -96,6 +96,24 @@ const projectCardInfo = [
         ]
     },
     {
+        title: 'Instagram Clone',
+        description: "This is an Instagram Clone from its home screen, this was made in order to learn more about how to make a React Native app",
+        imageSrc: '/instagram-clone.jpg',
+        buttons: [
+        {
+            icon: FaGithub,
+            color: '#010409',
+            url: 'https://github.com/Benevos/react-native-instagram-clone'
+        },
+        ],
+            tags: [
+            {name: 'React Native'},
+            {name: 'Redux'},
+            {name: 'Android'},
+            {name: 'Typescript'},
+        ]
+    },
+    {
         title: 'Xelhua',
         description: "Platform that enables end-users and organizations the use graphical schemes to build cloud agnostic big data analytics services without code. I participated in system's elasticity phase.",
         imageSrc: '/xel.png',
