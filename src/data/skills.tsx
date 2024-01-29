@@ -21,7 +21,7 @@ import { IoLogoElectron } from "react-icons/io5";
 const skillsInfo = [
     { Icon: <SiNextdotjs/>, color: undefined, name: 'Next'},
     { Icon: <FaReact/>, color: '#149eca', name:'React' },
-//    { Icon: <TbBrandReactNative/>, color: '#149eca', name:'React Native' },
+    { Icon: <TbBrandReactNative/>, color: '#149eca', name:'React Native' },
 //    { Icon: <IoLogoElectron/>, color: '#149eca', name:'Electron' },
     { Icon: <SiRedux/>, color: '#6100ff', name:'Redux' },
     { Icon: <SiTailwindcss/>, color: '#38bdf8', name: 'Tailwind' },
