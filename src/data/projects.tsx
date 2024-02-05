@@ -6,7 +6,7 @@ import { FaHistory } from "react-icons/fa";
 const projectCardInfo = [
     {
         title: 'Juice Slider',
-        description: 'Animated juice slider inspired by a design by MarcoDesignerX on TikTok',
+        description: 'Animated juice slider inspired by a design by @MarceloDesignX on TikTok',
         imageSrc: '/juice-slider.png',
         buttons: [
         {
@@ -24,6 +24,31 @@ const projectCardInfo = [
             {name: 'NextJS'},
             {name: 'React'},
             {name: 'TailwindCSS'}
+        ]
+    },
+    {
+        title: 'Space Tourism',
+        description: 'Multipage website based on a space tourism agency',
+        imageSrc: '/space-tourism.png',
+        buttons: [
+        {
+            icon: FaGithub,
+            color: '#010409',
+            url: 'https://github.com/Benevos/space-tourism-website'
+        },
+        {
+            icon: LuExternalLink,
+            color: '#1d4ed8',
+            url: 'https://benevos-space-tourism.vercel.app/'
+        }
+        ],
+            tags: [
+            {name: 'NextJS'},
+            {name: 'React'},
+            {name: 'Redux'},
+            {name: 'Tailwind'},
+            {name: 'SCSS'},
+            {name: 'Typescript'}
         ]
     },
     {
