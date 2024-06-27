@@ -23,8 +23,8 @@ function ReHeader() {
 
             <section className='flex flex-col gap-[0px] leading-[16px] max-md:mt-3'>
                 <ReContactItem Icon={IoMail} title='kevin_mendoza092@hotmail.com'/>
-                <ReContactItem Icon={FaGithub} title='\benevos'/>
-                <ReContactItem Icon={FaLinkedin} title='\in\benevos'/>
+                <ReContactItem Icon={FaGithub} title='/benevos'/>
+                <ReContactItem Icon={FaLinkedin} title='/in/benevos'/>
                 <ReContactItem Icon={PiCursorFill} title='https://benevos.vercel.app/'/>
                 <ReContactItem Icon={MdLocationOn} title='Tamaulipas, México'/>
             </section>

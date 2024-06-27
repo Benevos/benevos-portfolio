@@ -39,7 +39,7 @@ function Resume()
     }, [windowWidth])
 
     return (
-        <div className='w-full flex flex-col items-center h-[1056px] min-h-[1056px] max-w-[813px] min-w-[813px]
+        <div className='w-full flex flex-col items-center h-[1250px] min-h-[1250px] max-w-[813px] min-w-[813px]
                         px-[45px] py-[35px] bg-white relative'>
             <ReHeader/>
 
