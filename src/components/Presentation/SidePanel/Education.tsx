@@ -8,7 +8,7 @@ function Education() {
             <h2 className='text-4xl max-[670px]:text-3xl text-[#2994ff] mt-3 mb-2 font-bold pulse-bright'>Education</h2>
         
             <div className='w-full flex flex-wrap gap-2 py-2 justify-center overflow-y-auto overflow-x-hidden'>
-                <Link title='Universidad Autónoma de Tamaulipas' href={'https://www.uat.edu.mx/'}
+                <Link title='Universidad Autónoma de Tamaulipas' href={'https://www.uat.edu.mx/'} target='_blank'
                     className='flex w-fit bg-[#e96d18] rounded-full overflow-hidden education-shadow transition-all hover:brightness-110'>
 
                     <div className='flex items-center justify-center rounded-full h-[45px] w-[45px] min-w-[45px]
@@ -25,7 +25,7 @@ function Education() {
                     </div>
                 </Link>
 
-                <Link title='Colegio Nacional de Educación Profesional Técnica' href={'https://conalep.edu.mx/'}
+                <Link title='Colegio Nacional de Educación Profesional Técnica' href={'https://conalep.edu.mx/'} target='_blank'
                     className='flex w-fit bg-[#047c64] rounded-full overflow-hidden education-shadow transition-all hover:brightness-110'>
 
                     <div className='flex items-center justify-center rounded-full h-[45px] w-[45px] min-w-[45px] bg-white'>

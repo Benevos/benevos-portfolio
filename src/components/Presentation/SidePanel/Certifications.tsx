@@ -13,7 +13,7 @@ function Certifications()
         <section className='w-full flex flex-col items-center'>
             <h2 className='text-4xl max-[670px]:text-3xl text-[#2994ff] mt-3 mb-2 font-bold pulse-bright'>Certifications</h2>
 
-            <Link href={'https://www.efset.org/cert/H11z1M'} style={{borderColor: isOnDarkMode ? 'white' : 'black'}}
+            <Link href={'https://www.efset.org/cert/H11z1M'} target='_blank' style={{borderColor: isOnDarkMode ? 'white' : 'black'}}
                 className='flex justify-center items-center w-ful gap-2 border-[1px] rounded-full p-2'>
 
                 <LuExternalLink className='font-bold text-2xl w-[40px]'/>
